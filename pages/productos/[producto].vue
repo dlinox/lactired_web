@@ -102,13 +102,13 @@ const productosRelacionados = ref(null);
 
 const init = async () => {
   let res = await fetch(
-    "https://app-lactired.lnxdev.net.pe/api/producto/" + route.params.producto
+    "https://app.lnxdev.net.pe/api/producto/" + route.params.producto
   );
   let json = await res.json();
   producto.value = json;
 
   let resP = await fetch(
-    "https://app-lactired.lnxdev.net.pe/api/planta/productos/" +
+    "https://app.lnxdev.net.pe/api/planta/productos/" +
       producto.value.prod_plan_id
   );
   let jsonP = await resP.json();
