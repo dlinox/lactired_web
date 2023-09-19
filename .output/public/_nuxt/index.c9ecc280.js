@@ -1,0 +1,1 @@
+import{_ as t}from"./AppHeadPage.f787ae07.js";import{_ as e,f as n,o as c}from"./entry.9d878f71.js";import"./nuxt-link.2d103a88.js";const _={};function r(a,s){const o=t;return c(),n(o,{title:"Contactanos"})}const i=e(_,[["render",r]]);export{i as default};
