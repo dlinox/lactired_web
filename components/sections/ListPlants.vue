@@ -6,7 +6,7 @@
 <script setup>
 const plantas = ref(null);
 const init = async () => {
-  let res = await fetch("https://app-lactired.lnxdev.net.pe/api/plantas");
+  let res = await fetch("https://app.lnxdev.net.pe/api/plantas");
   let json = await res.json();
   plantas.value = json;
   console.log(json);
