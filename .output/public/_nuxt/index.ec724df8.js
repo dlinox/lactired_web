@@ -1,1 +1,0 @@
-import{_ as t}from"./AppHeadPage.26292f9c.js";import{_ as e,f as n,o as _}from"./entry.595007a1.js";import"./nuxt-link.8aae9871.js";const c={};function r(s,a){const o=t;return _(),n(o,{title:"nosotros"})}const i=e(c,[["render",r]]);export{i as default};
