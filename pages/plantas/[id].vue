@@ -76,9 +76,9 @@
       </div>
     </section>
 
-    <section v-if="planta" >
-      <div class="container-fullwidth" style="height: 500px;">
-        <AppMap  :latLng="[planta.plan_latitud, planta.plan_longitud]" />
+    <section v-if="planta">
+      <div class="container-fullwidth" style="height: 500px">
+        <AppMap :latLng="[planta.plan_latitud, planta.plan_longitud]" />
       </div>
     </section>
 
@@ -101,12 +101,11 @@
 <script setup>
 const route = useRoute();
 
-
 const planta = ref(null);
 
 const init = async () => {
   let res = await fetch(
-    "https://app.lnxdev.net.pe/api/planta/" + route.params.id
+    "https://infocir-lactired.linox.net.pe/api/planta/" + route.params.id
   );
   let json = await res.json();
   planta.value = json;

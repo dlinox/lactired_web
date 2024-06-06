@@ -31,7 +31,7 @@
             </ul>
           </div>
           <div class="header_btn_two float-right">
-            <a class="thm-btn" href="https://app.lnxdev.net.pe/registro-cliente" target="_blank">Registrarme</a>
+            <a class="thm-btn" href="https://infocir-lactired.linox.net.pe/registro-cliente" target="_blank">Registrarme</a>
           </div>
         </div>
       </div>

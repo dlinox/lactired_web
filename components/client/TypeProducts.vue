@@ -14,7 +14,7 @@
 const tiposProductos = ref(null);
 const init = async () => {
   let res = await fetch(
-    "https://app.lnxdev.net.pe/api/tipo-productos"
+    "https://infocir-lactired.linox.net.pe/api/tipo-productos"
   );
   let json = await res.json();
   tiposProductos.value = json;

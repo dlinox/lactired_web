@@ -40,7 +40,7 @@
 <script setup>
 const productos = ref(null);
 const init = async () => {
-  let res = await fetch("https://app.lnxdev.net.pe/api/productos");
+  let res = await fetch("https://infocir-lactired.linox.net.pe/api/productos");
   let json = await res.json();
   productos.value = json;
 };
